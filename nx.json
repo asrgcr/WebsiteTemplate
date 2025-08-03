@@ -1,0 +1,15 @@
+{
+  "namedInputs": {
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "sharedGlobals": [],
+    "production": ["default"]
+  },
+  "targetDefaults": {
+    "build": {
+      "cache": true
+    },
+    "type-check": {
+      "cache": true
+    }
+  }
+}
