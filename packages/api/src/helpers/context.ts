@@ -1,5 +1,5 @@
 import { TRPCError } from "@trpc/server"
-import { Context } from "../types/context";
+import type { Context } from "../types/context";
 import { CreateAWSLambdaContextOptions } from "@trpc/server/adapters/aws-lambda";
 import {LambdaFunctionURLEventWithIAMAuthorizer} from "aws-lambda";
 
